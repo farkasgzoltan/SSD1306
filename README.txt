@@ -22,3 +22,8 @@ Place the Adafruit_SSD1306 library folder your <arduinosketchfolder>/libraries/ 
 You will also have to download the Adafruit GFX Graphics core which does all the circles, text, rectangles, etc. You can get it from
 https://github.com/adafruit/Adafruit-GFX-Library
 and download/install that library as well 
+
+07/12/2018 @stickbreaker
+Modified by adding refresh cliping rectange to increase i2c performance.  
+Changed to use block i2c transfer instead of byte.
+Only i2c interface support.
