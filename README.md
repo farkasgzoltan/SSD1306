@@ -1,4 +1,4 @@
-# Adafruit_SSD1306
+# SSD1306
 <!-- START COMPATIBILITY TABLE -->
 
 ## Compatibility
